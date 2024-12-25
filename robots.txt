@@ -1,0 +1,45 @@
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /aio.html
+Allow: /index.html
+Allow: /sitemap.xml
+
+# Optimisation pour le crawl
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://jeanpierrefoucault.com/sitemap.xml
+
+# Directives spécifiques pour les bots majeurs
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 1
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 1
+
+# Optimisation pour les images
+User-agent: Googlebot-Image
+Allow: /img/
+Allow: /images/
+Crawl-delay: 1

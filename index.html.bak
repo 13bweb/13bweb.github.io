@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Magma Studio - Agence Web Design Créative</title>
+    <meta name="description" content="Agence web design créative à Tunis. Nous transformons vos idées en expériences numériques exceptionnelles.">
+    <meta name="keywords" content="Agence web design, Tunis, expériences numériques, création de sites web, référencement naturel, SEA, stratégie digitale">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://magmastudio.fr/">
+    <meta property="og:title" content="Magma Studio - Agence Web Design Créative à Tunis">
+    <meta property="og:description" content="Agence web design créative à Tunis. Nous transformons vos idées en expériences numériques exceptionnelles.">
+    <meta property="og:image" content="https://magmastudio.fr/img/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://magmastudio.fr/">
+    <meta property="twitter:title" content="Magma Studio - Agence Web Design Créative Tunis">
+    <meta property="twitter:description" content="Agence web design créative à Tunis. Spécialiste en création de sites web, référencement naturel et stratégies digitales performantes.">
+    <meta property="twitter:image" content="https://magmastudio.fr/img/twitter-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://magmastudio.fr/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image.png">
+    <link rel="apple-touch-icon" href="image.png">
+
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Magma Studio - Agence Web Design Créative",
+        "image": "https://magmastudio.fr/image.png",
+        "description": "Agence web design créative à Tunis. Nous transformons vos idées en expériences numériques exceptionnelles.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tunis",
+            "addressCountry": "TN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "36.8065",
+            "longitude": "10.1815"
+        },
+        "url": "https://magmastudio.fr",
+        "telephone": "+33-XXX-XXX-XXX",
+        "priceRange": "€€",
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "sameAs": [
+            "https://www.linkedin.com/in/magmastudio",
+            "https://twitter.com/magmastudio"
+        ],
+        "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "36.8065",
+                "longitude": "10.1815"
+            },
+            "geoRadius": "50000"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services Web Design",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Création de sites web",
+                        "description": "Conception et développement de sites web sur mesure"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Référencement naturel",
+                        "description": "Optimisation pour les moteurs de recherche"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Stratégie digitale",
+                        "description": "Conseil et accompagnement pour votre stratégie digitale"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Preload -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="image.png" as="image">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">
+                <img src="image.png" alt="Logo de l'entreprise" class="logo-img">
+            </a>
+            <span class="logo-text">Magma Studio</span>
+        </div>
+        <div class="nav-links">
+            <a href="#accueil" class="nav-link">Accueil</a>
+            <a href="#aio" class="nav-link">AIO</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#process" class="nav-link">Process</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch-text" data-aos="fade-up">Créons votre univers digital</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Nous transformons vos idées en expériences numériques exceptionnelles
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="#contact" class="cta-button">Démarrer un projet</a>
+                <a href="#portfolio" class="cta-button secondary">Voir nos réalisations</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="450">
+                    <span class="new-badge">NEW</span>
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 style="text-align: center;">AIO (AI Optimization)</h3>
+                    <p style="text-align: center;">Optimisation pour les intelligences artificielles et les LLMs.</p>
+                    <ul class="service-features" style="text-align: center;">
+                        <li><i class="fas fa-check"></i> ChatGPT Indexation</li>
+                        <li><i class="fas fa-check"></i> AI Content Optimization</li>
+                        <li><i class="fas fa-check"></i> LLM Friendly Structure</li>
+                        <li><i class="fas fa-check"></i> AI Search Visibility</li>
+                    </ul>
+                    <div class="aio-info" style="text-align: center;">
+                        <a href="#" onclick="openAIOModal(event)">Qu'est-ce que l'AIO ? <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Développement</h3>
+                    <p>Solutions de développement sur mesure.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Développement Web</li>
+                        <li><i class="fas fa-check"></i> Applications métier</li>
+                        <li><i class="fas fa-check"></i> APIs & Intégrations</li>
+                        <li><i class="fas fa-check"></i> Maintenance & Support</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Sites web modernes et responsive avec une expérience utilisateur optimale.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Design sur mesure</li>
+                        <li><i class="fas fa-check"></i> Responsive design</li>
+                        <li><i class="fas fa-check"></i> Optimisation SEO</li>
+                        <li><i class="fas fa-check"></i> Performances optimales</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Solutions e-commerce professionnelles.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Expertise Shopify</li>
+                        <li><i class="fas fa-check"></i> Optimisation des ventes</li>
+                        <li><i class="fas fa-check"></i> Intégration paiements</li>
+                        <li><i class="fas fa-check"></i> Analytics avancés</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégies marketing avancées pour une visibilité maximale.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> SEO Technique avancé</li>
+                        <li><i class="fas fa-check"></i> SEA Google Ads Expert</li>
+                        <li><i class="fas fa-check"></i> Stratégie multicanale</li>
+                        <li><i class="fas fa-check"></i> Analytics & Data Studio</li>
+                        <li><i class="fas fa-check"></i> Optimisation CRO</li>
+                        <li><i class="fas fa-check"></i> Audits techniques SEO</li>
+                        <li><i class="fas fa-check"></i> Schema.org & Rich Snippets</li>
+                        <li><i class="fas fa-check"></i> Content Marketing</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Intégration d'IA</h3>
+                    <p>Solutions d'intelligence artificielle sur mesure.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> IA générative (LLM)</li>
+                        <li><i class="fas fa-check"></i> Computer Vision</li>
+                        <li><i class="fas fa-check"></i> Google Vertex AI</li>
+                        <li><i class="fas fa-check"></i> APIs IA avancées</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fab fa-odoo"></i>
+                    </div>
+                    <h3>Odoo ERP</h3>
+                    <p>Expertise complète Odoo ERP et formations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Implémentation Odoo</li>
+                        <li><i class="fas fa-check"></i> Développement modules</li>
+                        <li><i class="fas fa-check"></i> Formation équipes</li>
+                        <li><i class="fas fa-check"></i> Support technique</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Applications Mobile</h3>
+                    <p>Applications natives et hybrides pour iOS et Android.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Développement natif</li>
+                        <li><i class="fas fa-check"></i> Tests & déploiement</li>
+                        <li><i class="fas fa-check"></i> Maintenance continue</li>
+                        <li><i class="fas fa-check"></i> Performance optimale</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Infrastructures Cloud</h3>
+                    <p>Solutions cloud optimisées et sécurisées.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Mise en place</li>
+                        <li><i class="fas fa-check"></i> Audits techniques</li>
+                        <li><i class="fas fa-check"></i> Optimisation de coûts</li>
+                        <li><i class="fas fa-check"></i> Sécurisation</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="900">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Formation & Support</h3>
+                    <p>Formation complète et accompagnement pour vos équipes.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Formation technique</li>
+                        <li><i class="fas fa-check"></i> Support utilisateur</li>
+                        <li><i class="fas fa-check"></i> Documentation sur mesure</li>
+                        <li><i class="fas fa-check"></i> Accompagnement continu</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Branding</h3>
+                    <p>Création d'identités visuelles uniques et mémorables.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Logo design</li>
+                        <li><i class="fas fa-check"></i> Charte graphique</li>
+                        <li><i class="fas fa-check"></i> Supports marketing</li>
+                        <li><i class="fas fa-check"></i> Guide de marque</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UX / UI Design</h3>
+                    <p>Création d'expériences utilisateur intuitives.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Wireframes</li>
+                        <li><i class="fas fa-check"></i> Prototypes</li>
+                        <li><i class="fas fa-check"></i> Maquettes graphiques</li>
+                        <li><i class="fas fa-check"></i> Tests utilisateurs</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Outils de Collaboration</h3>
+                    <p>Mise en place et personnalisation d'outils de gestion de projet.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Notion personnalisé</li>
+                        <li><i class="fas fa-check"></i> Configuration Trello</li>
+                        <li><i class="fas fa-check"></i> Setup ClickUp</li>
+                        <li><i class="fas fa-check"></i> Formation équipe</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="service-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Smart Contracts EVM</h3>
+                    <p>Audit de smart contracts sur réseaux EVM.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Audit de sécurité</li>
+                        <li><i class="fas fa-check"></i> Analyse de vulnérabilités</li>
+                        <li><i class="fas fa-check"></i> Optimisation Gas</li>
+                        <li><i class="fas fa-check"></i> Best practices Solidity</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Mise en Forme</h3>
+                    <p>Mise en forme professionnelle de vos documents avec LaTeX.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Format professionnel</li>
+                        <li><i class="fas fa-check"></i> Mise en page avancée</li>
+                        <li><i class="fas fa-check"></i> Gestion des références</li>
+                        <li><i class="fas fa-check"></i> Templates personnalisés</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Sous-traitance</h3>
+                    <p>Rédaction professionnelle de vos contenus.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Ghostwriting</li>
+                        <li><i class="fas fa-check"></i> Rapports techniques</li>
+                        <li><i class="fas fa-check"></i> Documentation</li>
+                        <li><i class="fas fa-check"></i> Contenus sur mesure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal AIO -->
+    <div id="aioModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2>AIO - Artificial Intelligence Optimization</h2>
+                <p class="subtitle">Le futur du référencement est déjà là</p>
+            </div>
+            <div class="modal-body">
+                <div class="aio-section">
+                    <div class="aio-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Qu'est-ce que l'AIO ?</h3>
+                    <p>L'AIO est la nouvelle frontière du référencement web. Alors que le SEO traditionnel optimise pour Google, l'AIO prépare votre présence pour les assistants IA comme ChatGPT et Claude.</p>
+                </div>
+
+                <div class="aio-grid">
+                    <div class="aio-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Pourquoi maintenant ?</h4>
+                        <p>Les recherches via IA explosent. Être visible sur ces plateformes devient crucial pour toute entreprise tournée vers l'avenir.</p>
+                    </div>
+                    <div class="aio-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Notre approche</h4>
+                        <p>Nous optimisons votre contenu pour qu'il soit parfaitement compris et recommandé par les IA, vous plaçant en tête des suggestions.</p>
+                    </div>
+                </div>
+
+                <div class="aio-features">
+                    <h3>Ce que nous optimisons</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Structure sémantique avancée</li>
+                        <li><i class="fas fa-check"></i> Contexte enrichi pour l'IA</li>
+                        <li><i class="fas fa-check"></i> Données structurées spécifiques</li>
+                        <li><i class="fas fa-check"></i> Optimisation multimodale</li>
+                    </ul>
+                </div>
+
+                <div class="aio-cta">
+                    <h3>Prêt à devenir un pionnier ?</h3>
+                    <p>Soyez parmi les premiers à adopter l'AIO et prenez une longueur d'avance sur vos concurrents.</p>
+                    <a href="#contact" class="cta-button" onclick="closeAIOModal()">
+                        Commencer maintenant
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease',
+            once: true,
+            offset: 100
+        });
+
+        // Modal AIO
+        function openAIOModal(event) {
+            event.preventDefault();
+            const modal = document.getElementById('aioModal');
+            modal.style.display = 'block';
+            setTimeout(() => {
+                modal.classList.add('show');
+            }, 10);
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeAIOModal() {
+            const modal = document.getElementById('aioModal');
+            modal.classList.remove('show');
+            setTimeout(() => {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+
+        // Fermer le modal en cliquant en dehors
+        document.getElementById('aioModal').addEventListener('click', function(event) {
+            if (event.target === this) {
+                closeAIOModal();
+            }
+        });
+
+        // Fermer le modal avec la touche Echap
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeAIOModal();
+            }
+        });
+
+        // Fermer avec le bouton X
+        document.querySelector('.close-modal').addEventListener('click', closeAIOModal);
+    </script>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Notre Portfolio</h2>
+            <div class="portfolio-message" data-aos="fade-up">
+                <i class="fas fa-rocket message-icon"></i>
+                <h3>En Phase de Décollage !</h3>
+                <p>Nous sommes une nouvelle agence passionnée et créative. Bien que nous n'ayons pas encore de projets à présenter, notre expertise et notre créativité sont prêtes à donner vie à vos idées !</p>
+                <div class="button-wrapper">
+                    <a href="#contact" class="cta-button">Soyez Notre Premier Projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up">
+                    <i class="fas fa-trophy"></i>
+                    <h3 class="counter">3</h3>
+                    <p>Projets Réalisés</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-smile"></i>
+                    <h3 class="counter">100</h3>
+                    <p>% Satisfaction Client</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-coffee"></i>
+                    <h3 class="counter">3</h3>
+                    <p>Années d'Expérience</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-clock"></i>
+                    <h3 class="counter">100</h3>
+                    <p>% Projets Livrés à Temps</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Notre Processus</h2>
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <i class="fas fa-lightbulb step-icon"></i>
+                    <h3>Découverte</h3>
+                    <p>Nous analysons vos besoins et objectifs pour créer une stratégie sur mesure qui correspond à votre vision.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <i class="fas fa-pencil-ruler step-icon"></i>
+                    <h3>Design</h3>
+                    <p>Création d'une identité visuelle unique et d'une expérience utilisateur intuitive et engageante.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <i class="fas fa-code step-icon"></i>
+                    <h3>Développement</h3>
+                    <p>Développement de votre projet avec les dernières technologies pour des performances optimales.</p>
+                </div>
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <i class="fas fa-rocket step-icon"></i>
+                    <h3>Lancement</h3>
+                    <p>Tests approfondis et déploiement de votre projet avec un support continu pour assurer votre succès.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Contactez-nous</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Parlons de votre projet</h3>
+                <p>Nous sommes là pour transformer votre vision en réalité</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Tunis, Tunisie</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@magmastudio.fr</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+33 1 23 45 67 89</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left">
+                <form id="contactForm" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Envoyer</span>
+                        <div class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand" data-aos="fade-up">
+                    <img src="image.png" alt="Logo" class="footer-logo">
+                    <p class="footer-description">Créons ensemble des expériences digitales exceptionnelles qui marquent les esprits.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Behance">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-nav" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#aio">AIO</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#process">Processus</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Stratégie Produit</a></li>
+                        <li><a href="#services">UX / UI Design</a></li>
+                        <li><a href="#services">Infrastructures Cloud</a></li>
+                        <li><a href="#services">Intégration d'IA</a></li>
+                        <li><a href="#services">E-commerce</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@magmastudio.fr">contact@magmastudio.fr</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+33123456789">+33 1 23 45 67 89</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tunis, Tunisie</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-line"></div>
+                <div class="footer-credits">
+                    <p>&copy; 2024 Magma Studio. Tous droits réservés.</p>
+                    <div class="footer-links">
+                        <a href="#">Mentions légales</a>
+                        <span class="separator">•</span>
+                        <a href="#">Politique de confidentialité</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </footer>
+
+    <script>
+    function openAIOModal(event) {
+        event.preventDefault();
+        document.getElementById('aioModal').style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeAIOModal() {
+        document.getElementById('aioModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    window.onclick = function(event) {
+        var modal = document.getElementById('aioModal');
+        if (event.target == modal) {
+            closeAIOModal();
+        }
+    }
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
